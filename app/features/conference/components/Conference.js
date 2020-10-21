@@ -15,7 +15,8 @@ import { conferenceEnded, conferenceJoined } from '../actions';
 import JitsiMeetExternalAPI from '../external_api';
 import { LoadingIndicator, Wrapper } from '../styled';
 
-const ENABLE_REMOTE_CONTROL = false;
+// 201020: Changed default to true
+const ENABLE_REMOTE_CONTROL = true;
 
 type Props = {
 
